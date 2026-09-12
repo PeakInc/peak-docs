@@ -14,7 +14,7 @@ description: "Run a GitHub Actions job on Peak in 10 minutes."
 Run this in your repository folder.
 
 ```bash
-peak init
+npx @peak-inc/init
 ```
 
 ## Coding agent setup
@@ -22,7 +22,7 @@ peak init
 Paste this into your coding agent.
 
 ```text
-Set up Peak in this repository. Run peak init --json and follow each step.
+Set up Peak in this repository. Run npx -y @peak-inc/init@latest --json and follow each step.
 ```
 
 ## Peak agent setup
@@ -30,7 +30,7 @@ Set up Peak in this repository. Run peak init --json and follow each step.
 Run this in your repository folder.
 
 ```bash
-peak migrate
+npx -y @peak-inc/wizard@latest
 ```
 
 Approve the diff.
