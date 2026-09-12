@@ -19,13 +19,14 @@
 
 ## Style preferences
 
-{/* Add any project-specific style rules below */}
-
-- Use active voice and second person ("you")
-- Keep sentences concise — one idea per sentence
-- Use sentence case for headings
-- Bold for UI elements: Click **Settings**
-- Code formatting for file names, commands, paths, and code references
+- Use words a third grader knows. Keep technical terms.
+- One thought per sentence. Active voice. Second person.
+- Every sentence is an action the reader does or a check the reader makes. Do not describe what the screen does.
+- Cut every word that adds nothing.
+- No formatting inside sentences. Put commands, paths and values in their own code block.
+- Prerequisites first. Then the terminal and agent paths. Then the manual steps.
+- No metaphors, analogies, hedging or tautology.
+- Sentence case for headings.
 
 ## Content boundaries
 
