@@ -19,7 +19,13 @@ npx -y @peakinc/init@latest
 
 ## Coding agent setup
 
-Paste this into your coding agent.
+Install the Peak skill once. Then ask your agent to set up Peak.
+
+```bash
+npx skills add PeakInc/skills --skill peak-setup
+```
+
+Or paste this into your coding agent.
 
 ```text
 Set up Peak in this repository. Run npx -y @peakinc/init@latest --yes --json --no-browser. Show me the sign in link it prints. Wait until I approve it. Then give me the pull request link.
